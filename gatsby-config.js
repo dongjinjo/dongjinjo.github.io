@@ -1,13 +1,13 @@
 const lost = require('lost')
 const pxtorem = require('postcss-pxtorem')
 
-const url = 'https://lumen.netlify.com'
+const url = 'https://dongjinjo.github.io'
 
 module.exports = {
   siteMetadata: {
     url,
     siteUrl: url,
-    title: 'by John Doe',
+    title: 'dongjinjo',
     subtitle: '',
     copyright: '© All rights reserved.',
     disqusShortname: '',
@@ -26,7 +26,7 @@ module.exports = {
       },
     ],
     author: {
-      name: 'John Doe',
+      name: 'dongjin jo',
       email: '#',
       telegram: '#',
       twitter: '#',
@@ -113,7 +113,33 @@ module.exports = {
             resolve: 'gatsby-remark-responsive-iframe',
             options: { wrapperStyle: 'margin-bottom: 1.0725rem' },
           },
-          'gatsby-remark-prismjs',
+          {
+            resolve: 'gatsby-remark-prismjs',
+            options: {
+              classPrefix: "language-",
+              inlineCodeMarker: null,
+              aliases: {},
+              showLineNumbers: false,
+              noInlineHighlight: false,
+              languageExtensions: [{
+                language: "superscript",
+                extend: "javascript",
+                definition: {
+                  superscript_types: /(SuperType)/,
+                },
+                insertBefore: {
+                  function: {
+                    superscript_keywords: /(superif|superelse)/,
+                  },
+                },
+              }, ],
+              prompt: {
+                user: "root",
+                host: "localhost",
+                global: false,
+              },
+            },
+          },
           'gatsby-remark-copy-linked-files',
           'gatsby-remark-smartypants',
         ],
