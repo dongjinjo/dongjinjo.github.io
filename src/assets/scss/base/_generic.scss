@@ -180,3 +180,29 @@ figcaption {
         }
     }
 }
+
+.post-single__body table {
+  border-collapse: collapse;
+  display: block;
+  overflow: auto;
+}
+
+.post-single__body table th {
+  background-color: $color-white;
+  font-weight: 600;
+}
+
+.post-single__body table td,
+.post-single__body table th {
+  border: 1px solid $color-gray-border;
+  padding: 6px 13px;
+}
+
+.post-single__body table tr {
+  background-color: $color-white;
+  border-top: 1px solid $color-gray-border;
+}
+
+.post-single__body table tr:nth-child(odd) {
+  background-color: $color-gray-bg;
+}
