@@ -10,7 +10,7 @@ module.exports = {
     title: 'dongjinjo',
     subtitle: '',
     copyright: '© All rights reserved.',
-    disqusShortname: '',
+    disqusShortname: 'dongjinjo',
     menu: [
       {
         label: 'Articles',
