@@ -102,6 +102,10 @@ module.exports = {
     {
       resolve: 'gatsby-transformer-remark',
       options: {
+	commonmark: true,
+	footnotes: true,
+	padantic: true,
+	gfm: true,
         plugins: [
           {
             resolve: 'gatsby-remark-images',
