@@ -29,10 +29,10 @@ self.__precacheManifest = [
     "url": "webpack-runtime-4cc14f5af96c439f7d4c.js"
   },
   {
-    "url": "styles.dc7d129162059ecb9d94.css"
+    "url": "styles.abed768f5e79122f3cdc.css"
   },
   {
-    "url": "styles-df66f86e78450942786e.js"
+    "url": "styles-cce50a87a892a82a434b.js"
   },
   {
     "url": "commons-a06dc839c43311c01b20.js"
@@ -45,7 +45,7 @@ self.__precacheManifest = [
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "09cc6f34aa5e0c749e29d54c41fb8388"
+    "revision": "f14e74354d3fef101222bfaca51596ae"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
