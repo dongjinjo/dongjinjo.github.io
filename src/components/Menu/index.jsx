@@ -24,6 +24,10 @@ class Menu extends React.Component {
 
     return (
       <div className="menu">
+        <input type="checkbox" id="menu__click" className="menu__burger-input"></input>
+        <label for="menu__click">
+          <div className="menu__burger"></div>
+        </label>
         {menuBlock}
       </div>
     )
