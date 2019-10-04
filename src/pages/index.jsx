@@ -20,6 +20,7 @@ class IndexRoute extends React.Component {
           <Helmet>
             <title>{title}</title>
             <meta name="description" content={subtitle} />
+	    <meta name="naver-site-verification" content="733cd77f5fb327bdbb6d8b0c72be58aba762e8ee"/>
           </Helmet>
 	  <Header {...this.props} />
           <div className="content">
