@@ -90,13 +90,6 @@
     }
     &__tags {
         @include margin-bottom(.5);
-	&-title {
-            display: inline-block;
-            font-weight: bold;
-            font-size: 1.125rem;
-            color: $color-gray;
-            margin: 0 0.5rem;
-	}
         &-list {
             display: inline-block;
             list-style: none;

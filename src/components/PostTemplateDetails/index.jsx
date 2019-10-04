@@ -15,7 +15,6 @@ class PostTemplateDetails extends React.Component {
 
     const tagsBlock = (
       <div className="post-single__tags">
-	<div className="post-single__tags-title"> Tags : </div>
         <ul className="post-single__tags-list">
           {tags &&
             tags.map((tag, i) => (
