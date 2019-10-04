@@ -161,6 +161,7 @@ module.exports = {
         fonts: ['roboto:400,400i,500,700'],
       },
     },
+    'gatsby-plugin-robots-txt',
     'gatsby-plugin-sitemap',
     'gatsby-plugin-offline',
     'gatsby-plugin-catch-links',
