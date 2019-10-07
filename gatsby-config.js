@@ -8,7 +8,7 @@ module.exports = {
     url,
     siteUrl: url,
     title: 'dongjinjo',
-    subtitle: '',
+    subtitle: 'Blog by dongjinjo',
     copyright: '© All rights reserved.',
     disqusShortname: 'dongjinjo',
     menu: [
