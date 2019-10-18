@@ -5,7 +5,10 @@ layout: post
 draft: false
 path: /posts/zabbix-mongodb-item-key
 category: zabbix
-tags: zabbix mongo monitoring
+tags: 
+  - zabbix 
+  - mongo 
+  - monitoring
 description: "Zabbix의 MongoDB 용 Key 생성 및 Item 설정 방법"
 ---
 > Zabbix의 MongoDB 용 Key 생성 및 Item 설정 방법
